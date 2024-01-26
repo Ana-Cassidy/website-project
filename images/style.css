@@ -23,7 +23,6 @@ nav{
 
 nav>a{
     font-size: 18px;
-    /* background-color: yellowgreen; */
     color:white;
     text-decoration: none;
 }
@@ -34,9 +33,23 @@ nav>a:hover{
 .centre{
     margin: auto;
     width: 98.5%;
-    /* border: 2px solid rgb(248,112,96); */
     border-bottom: 3px solid rgb(248,112,96);
     padding: 0.5%;
+}
+
+
+.places-list{
+    list-style-type: none;
+    width: 98.5%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    margin-left: 13%;
+    min-height: fit-content;
+}
+
+.places-images{
+    margin-left: 10%;
 }
 
 h1,h2,h3{
@@ -67,10 +80,6 @@ p{
     justify-content: space-evenly;
 }
 
-ul.a{
-    font-size: 30px;
-    color:purple;
-}
 /* this defines the style for the lists */
 .first-item{
     color: rgb(242, 152, 8);
@@ -87,14 +96,8 @@ ul.a{
 .img_cities{
     border: 1px solid brown;
     margin-left: 10%;
-    float:right;
-    overflow: auto;
 }
 
 #fav-places{
     margin-left: 8%;
-}
-
-.logos{
-    float:inherit;
 }
