@@ -22,7 +22,7 @@ nav{
 
 
 nav>a{
-    font-size: 20px;
+    font-size: 18px;
     /* background-color: yellowgreen; */
     color:white;
     text-decoration: none;
@@ -47,7 +47,7 @@ h1,h2,h3{
 }
 
 p{
-    font-size: 20px;
+    font-size: 16px;
     text-align:justify;
     margin-left: 5%;
     margin-right: 5%;
@@ -86,7 +86,7 @@ ul.a{
 
 img{
     border: 1px solid brown;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 #fav-places{
